@@ -1,0 +1,64 @@
+let x;
+
+const name = 'John';
+const age = 31;
+
+// Concatenation
+// x = 'Hello, my name is ' + name + ' and I am ' + age + ' years old';
+// console.log(x);
+
+// Template Literals
+// x = `Hello, my name is ${name} and I am ${age} years old`;
+// console.log(x);
+
+// Creating a "string object" (JS does this automatically when using a propery or method on a primitive string)//  dem chuoi
+const s = new String('Hello Worlddasd');
+
+x = typeof s;
+
+x = s.length;
+// // console.log(x);
+
+// // Access value by key //Lay gtri theo key
+// x = s[4];
+// console.log(x);
+
+// Shows the prototype of the string object. Shows the properties and methods
+// x = s.__proto__;
+// console.log(x);
+
+// Change case
+// x = s.toUpperCase(); //thuong thanh hoa
+// x = s.toLowerCase();//hoa thanh thuong
+
+// // charAt() - returns the character at the specified index
+// x = s.charAt(4);
+
+// indexOf - returns the index of the first occurrence of a specified value in a string
+// x = s.indexOf('l'); 
+
+// substring() - search a string for a specified value
+// x = s.substring(2, 5);// lay gtri theo khoang
+// x = s.substring(7); //lay gtri tro di
+
+// slice() - extracts a part of a string and returns a new string
+// x = s.slice(-11, -6);
+
+// trim() - remove whitespace from beginning and end of string
+// x = '         Hello World';
+// x = x.trim();
+
+// // replace() - replace all instances of a string
+// x = s.replace('World', 'John');
+
+// // includes() - returns true if the string is found
+// x = s.includes('Hell');
+
+// // valueOf() - returns the primitive value of a variable
+// x = s.valueOf();
+
+// // split() - returns an array of strings
+x = s.split('');
+
+
+console.log(x);
